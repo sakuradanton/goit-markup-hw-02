@@ -1,3 +1,40 @@
+:root {
+  --dark-section: #2f303a;
+  --light-grey: #f5f4fa;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --black-text: #212121;
+  --grey-text: #757575;
+}
 .main {
-  background-color: antiquewhite;
+  background-color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.header-nav {
+}
+.web-studio {
+  color: var(--blue-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.studio {
+  color: var(--black-text);
+}
+.hero {
+  background-color: #2f303a;
+}
+.peculiarities {
+}
+.team {
+  background-color: var(--light-grey);
+}
+.footer-nav {
+  background-color: var(--dark-section);
 }
